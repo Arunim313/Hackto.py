@@ -14,9 +14,9 @@ This repository contain python projects.
 </div>
 <div align="center">
     <p>
-	    <a name="stars"><img src="https://img.shields.io/github/stars/Arunim313/LeetCode-Solutions?style=for-the-badge"></a>
-	    <a name="forks"><img src="https://img.shields.io/github/forks/Arunim313/LeetCode-Solutions?logoColor=green&style=for-the-badge"></a>
-	    <a name="contributions"><img src="https://img.shields.io/github/contributors/Arunim313/Leetcode-Solutions?logoColor=green&style=for-the-badge"></a>
+	    <a name="stars"><img src="https://img.shields.io/github/stars/Arunim313/Hackto.py?style=for-the-badge"></a>
+	    <a name="forks"><img src="https://img.shields.io/github/forks/Arunim313/Hackto.py?logoColor=green&style=for-the-badge"></a>
+	    <a name="contributions"><img src="https://img.shields.io/github/contributors/Arunim313/Hackto.py?logoColor=green&style=for-the-badge"></a>
     </p>
 </div>
 
