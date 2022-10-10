@@ -20,6 +20,8 @@ This repository contain python projects.
     </p>
 </div>
 
+### Don't forget to star this repo
+
 ### This repository aims to help code beginners with their first successful pull request and open-source contribution. :partying_face:
 
 :star: Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
