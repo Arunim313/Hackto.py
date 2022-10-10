@@ -20,7 +20,7 @@ This repository contain python projects.
     </p>
 </div>
 
-### Don't forget to star this repo
+### Don't forget to star this repo 🤗
 
 ### This repository aims to help code beginners with their first successful pull request and open-source contribution. :partying_face:
 
