@@ -1,0 +1,37 @@
+import random
+
+Wins_user = 0
+Wins_Computer = 0
+
+optionyouhave = ["rock", "paper", "scissors"]
+
+while True:
+    Input_by_user = input("Type Rock/Paper/Scissors or Q to quit: ").lower()
+    if Input_by_user == "q":
+        break
+    # rock: 0, paper: 1, scissors: 2
+    if Input_by_user not in optionyouhave:
+        continue
+    random_num_generater = random.randint(0, 2)
+    # rock: 0, paper: 1, scissors: 2
+    computerChoice = optionyouhave[random_num_generater]
+    print("Computer has picked - ", computerChoice + ".")
+
+    if Input_by_user == "rock" and computerChoice == "scissors":
+        print("User wins!")
+        Wins_user =Wins_user+1
+
+    elif Input_by_user == "paper" and computerChoice == "rock":
+        print("User wins!")
+        Wins_user =Wins_user + 1
+
+    elif Input_by_user == "scissors" and computerChoice == "paper":
+        print("User wins!")
+        Wins_user =Wins_user + 1
+
+    else:
+        print("User lost!")
+        Wins_Computer =Wins_Computer+ 1
+    # rock: 0, paper: 1, scissors: 2
+print("The computer have won", Wins_Computer, " - Times.")
+print("The User have won", Wins_user, " - Times.")
