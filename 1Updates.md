@@ -8,3 +8,9 @@
 -> Tic Tac Toe
 
 -> Number Guessing Game
+
+-> Bmi calculator
+
+-> rock paper scissor
+
+
