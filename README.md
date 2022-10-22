@@ -1,5 +1,5 @@
 # Hackto.py
-This repository contain python projects.
+This repository contain Python Projects.
 
 #  Hacktoberfest-2022🔥
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
@@ -37,3 +37,27 @@ A month-long celebration from October 1st to October 31st presented by [Digital 
 
 ## Rules :fire:
 To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2022 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 40,000__ participants who complete the challenge will earn a T-shirt.
+
+# FAQs (Frequently Asked Questions)
+
+- Who all can contribute?
+  - Anyone with a github account and who is signed up for
+[hacktoberfest](https://hacktoberfest.digitalocean.com/) :)
+- Are you getting paid for this?
+  - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
+- Who are you and why are you doing this?
+  - We are two programmers from India [Anmol](https://www.linkedin.com/in/fineanmol/)
+  and [Ritesh](https://github.com/ritesh2905). We are doing this because we love Open Source and Hacktoberfest. We want to make it easier for people to get started with Hacktoberfest and Open Source.
+- Why are you not using digitalocean?
+  - Because we only know JavaScript and suck at servers. We use [now](https://zeit.co/now) instead.
+
+- Should I come closer to the text saying 'Don't come closer' on the left side of the home tab ?
+  - Nope.
+- How many pull request (PR) must be made, if I want to get an awesome tshirt from Hacktoberfest 2022?
+  - 4
+- How do I track my progress to get an awesome shirt from Hacktoberfest 2022?
+  - [go to :](https://hacktoberfest.digitalocean.com/profile/). (Check Out Your Own Stats at Right Top)
+- What is the duration of Hacktoberfest 2022?
+  - It is from 1st october to 31st october 2022...
+- What is the event for?
+  - For the open source community engagement and learn how to contribute to open source.
