@@ -41,7 +41,9 @@ class DownloadMethods:
                         for line in my_zip_file.open(contained_file).readlines():
                             # print(line)
                             output.write(line)
-                        
+                            
+                    #  you can pass the directory address where file to be downloaded as
+                    #( "path/to/file/directory"+contained_file )
                         files.append(contained_file)
             return files
 
