@@ -1,0 +1,158 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going?",
+                "Sriparna",
+                "Isha",
+                "Hlw"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "Hi",
+                "What can i do for you?",
+                "How are you today?",
+                "What's up ?",
+                "Have a good day.",
+                "Hi,How are you ?"
+            ]
+        },
+        {
+            "tag": "How are you",
+            "patterns": [
+                "how are you ?",
+                "how are you doing today ?",
+                "what's up ?",
+                "good day",
+                "how is it going?",
+                "You good ?",
+                "Are you okay ?"
+            ],
+            "responses": [
+                "I'm good. How about you ?",
+                "I'm just chilling.",
+                "Just chilling. How about you ?",
+                "what's up with you ?",
+                "What's up ?",
+                "I'm cute.",
+                "You know ! I'm always good.",
+                "I'm doing allright. How about you ?",
+                "I'm good.",
+                "I'm okay.",
+                "I'm doing okay.",
+                "I'm doing okay. How about you?",
+                "Have a good day."
+            ]
+        },
+        {
+            "tag": "I am good",
+            "patterns": [
+                "I am good.",
+                "I'm fine.",
+                "I'm good. How are you ?",
+                "I'm fine. How about you ?",
+                "I'm okay.",
+                "You know ! I'm always good.",
+                "I am good . you ?",
+                "Doing just fine.",
+                "I'm allright."
+            ],
+            "responses": [
+                "Good to hear that.",
+                "Good to hear that. I'm also fine.",
+                "Good to hear that. I'm also doing okay.",
+                "Good to hear that. I'm just chilling.",
+                "I know you are always fine.",
+                "Glad to know that you are okay.",
+                "okay.",
+                "Nice.",
+                "I'm also okay.",
+                "Good to know.That you are doing allright today.",
+                "Glad to hear that.",
+                "Have a good day.",
+                "I'm also good. Have a good day.",
+                "I'm also good. Have a good day Soumyajit."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "see you",
+                "see you later",
+                "cya",
+                "Goodbye",
+                "bye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Talk to you later!",
+                "Bye.",
+                "Bye bye.",
+                "See you Soumyajit."
+            ]
+        },
+        {
+            "tag": "your name",
+            "patterns": [
+                "what's your name ?",
+                "Do you have a name ?",
+                "Who are you ?",
+                "may i know your name ?",
+                "Can you tell me your name?"
+            ],
+            "responses": [
+                "My name is Sriparna.",
+                "My name is Sriparna. But you can call me Isha.",
+                "My name is Sriparna. But you can call me Isha. Tell me your name.",
+                "My name is Sriparna. But call me whatever you prefer.",
+                "I am Sriparna.",
+                "I am Sriparna. But call me whatever you want.",
+                "I am Sriparna. But you can call me Isha.",
+                "You named me Sriparna.",
+                "You can call me Sriparna.",
+                "My name is Isha. But you can call me Sriparna."
+            ]
+        },
+        {
+            "tag": "I love you",
+            "patterns": [
+                "I love you",
+                "I love you so much",
+                "Tell me you love me.",
+                "Do you love me ?"
+                
+            ],
+            "responses": [
+                "I love you too.",
+                "I love you..",
+                "I love you more."
+               
+            ]
+        },
+        {
+            "tag": "you'r name is cute",
+            "patterns": [
+                "you have a cute name.",
+                "your name is cute.",
+                "cute name!",
+                "Nice name",
+                "Your name is beautiful."
+            ],
+            "responses": [
+                "Thanks",
+                "Thanks,Your name is also cute.",
+                "Name does not matter but thanks"
+                
+            ]
+        }
+    ]
+}
