@@ -1,0 +1,49 @@
+from google.colab import files
+uploaded=files.upload()
+import pandas as pd
+import numpy as np
+from pandas_profiling import ProfileReport
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+dataset=pd.read_csv('Employee-turnover.csv')
+ pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip 
+pf=ProfileReport(dataset)
+pf
+pf.to_widgets()
+correlations = dataset.corr()
+plt.subplots(figsize = (20, 20))
+sns.heatmap(correlations, annot = True)
+
+with help of heatmap we can se there are no or very less multicollinearity amongst the irrelevent data attributes.This is a good sign for us as it help in training a model without much difficulty as, the model did not get any misleading correlation.
+# Now we will analyze each attributes with attrition on counterplot 
+plt.figure(figsize = (25, 10), dpi = 300)
+sns.countplot(x='Age',hue="Attrition (Yes/No)", data =dataset )
+For age group below 22 we can observe that the attrition rate is high. We can conclude that young age groups have higher chances of leaving a company. 26-35 age group have the highest tendecy of leaving job too.
+
+
+
+plt.figure(figsize = (25, 10), dpi = 300)
+sns.countplot(x = 'Job Role', hue = 'Attrition (Yes/No)', data = dataset)
+
+sales executive, research scientist, laboratory technician and sales representative job roles have higher number attrition, which makes these job role more vulnerable for future attrition. Especially for people between 26-35 years working under these job roles
+plt.figure(figsize = (25, 10), dpi = 300)
+sns.countplot(x = 'Gender', hue = 'Attrition (Yes/No)', data = dataset)
+
+Attrition is independent of gender
+plt.figure(figsize = (25, 10), dpi = 300)
+sns.countplot(x = 'Marital Status', hue = 'Attrition (Yes/No)', data = dataset)
+Single people (mostly young) tend to leave the company more.
+sns.kdeplot(x='Distance From Home (kms)', label = 'Employee left', shade = True, color = 'r' )
+sns.kdeplot(x='Distance From Home (kms)', label = 'Employee stay', shade = True, color = 'b')
+
+
+
+
+
+
+
+
+
+
+
